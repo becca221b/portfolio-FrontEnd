@@ -34,7 +34,7 @@ nav{
 
 .line{
 	height: 2px;
-  	background: linear-gradient(45deg, #66f, #f80, #ffc);
+  background: linear-gradient(45deg, #66f, #f80, #ffc);
 }
 .principal-bg{
   width:100vw;

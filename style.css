@@ -7,6 +7,15 @@ html{
 *::before{
   box-sizing: inherit;
 }
+
+@font-face {
+  font-family: fuente_1;
+  src: url('assets/fonts/.woff2') format('woff2'),
+    url('assets/fonts/.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+}
+
 body{
   margin: 0;
   overflow-x: hidden;  

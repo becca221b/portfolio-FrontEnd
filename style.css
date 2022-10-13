@@ -18,7 +18,8 @@ header{
   
 }
 nav{
-  height: 15vh;
+  height: 10vh;
+  background-color: #1c1c1c;
 }
 
 .p-2{
@@ -39,7 +40,7 @@ nav{
 .principal-bg{
   width:100%;
   height:100vh;
-  background-image: url(assets/images/fondo5.jpg);
+  background-image: url(assets/images/technologybackground.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -47,7 +48,7 @@ nav{
   flex-direction: column;
   justify-content:center;
   align-items:center;
-  color: #FFCA63;
+  color: white;
 }
 .principal-bg h1{
   font-size: 60px;
@@ -61,19 +62,22 @@ nav{
  }
  .p1 h2{
   font-size: 35px;
+  color: #f80;
  }
-.seccion{
+ 
+ .seccion{
   height: 100vh;
-  width:90%;
+  width:100%;
   margin: auto;
   padding: 20px;
-  
+  background-color: #191919;
   color: blueviolet;
   justify-content: center;
   align-items: center; 
 }
 .lenguajes h1{
   color: #f80;
+  margin-top: 50px;
 }
 .proyectos h1, .experiencia h1{
   text-align: center;

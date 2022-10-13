@@ -4,36 +4,52 @@
     <meta charset=utf-8 />
     <title>Rebeca Ozuna | FrontEnd Developer</title>
     <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   </head>
   <body>
     <header>
-      <div class="botonera">
-        <nav>
-          
-        </nav>
-      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <!-- Navbar content -->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="#" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Rebeca
+          </a>
+          <div class="botonera d-flex flex-row-reverse">
+            <button type="button" class="btn btn-info">Login</button>
+            <div class="p-2"><a class="nav-link" href="#">Contacto</a></div>
+            <div class="p-2"><a class="nav-link" href="#seccion experiencia">Experiencia</a></div>
+            <div class="p-2"><a class="nav-link" href="#seccion proyectos">Proyectos</a></div>
+          </div>
+        </div>
+      </nav>
+      
       <div class="line"></div>
     </header>
+
     <div class="principal-bg">
       <div>
       	<h1>Rebeca Ozuna</h1>
       </div>
       <div class=p1>
-      	<p>Web Developer</p>
+      	<h2>Web Developer</h2>
       </div>
     </div>
-    <section class="outside-section">
-      <h1>Experiencia</h1>
-      <p class=p2>lorem ipsum xxxxxxxxxxxx
-      xxxxxxxxxxxxxxx
-      xxxxxxxxxxxxxxxxxxxxxxxx
-      xxxxxxxxxxxxxx
-      xxxxxxxxxxxxxxxxxx</p>
+    <section class="seccion lenguajes" id="">
+      <h1>Lenguajes de Programación</h1>
+      <p class=p2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi impedit suscipit, cumque unde perferendis harum omnis molestiae odit voluptas ducimus dolore nobis accusamus deserunt excepturi dolores, quam labore eveniet officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tenetur, accusamus quae provident maxime accusantium veniam sequi fugiat corrupti et amet optio aut fugit ut modi? Aperiam distinctio deleniti tempora.</p>
+      <h1>Idiomas</h1>
     </section>
-    <section class="inside-section">
-  	  <h2>Datos</h2>
+    <section class="seccion proyectos" id="seccion proyectos">
+      <h1>Proyectos</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos commodi quo ducimus illo unde distinctio recusandae, aspernatur id! Alias dolore impedit quod eum praesentium sit magni consequatur quaerat earum fugit!</p>
     </section>
-    <footer class="foot">
+    <section class="seccion experiencia" id="seccion experiencia">
+  	  <h1>Experiencia</h1>
+      <p class=p2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi impedit suscipit, cumque unde perferendis harum omnis molestiae odit voluptas ducimus dolore nobis accusamus deserunt excepturi dolores, quam labore eveniet officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tenetur, accusamus quae provident maxime accusantium veniam sequi fugiat corrupti et amet optio aut fugit ut modi? Aperiam distinctio deleniti tempora.</p>
+    </section>
+    <footer class="foot bg-dark">
       <p>Página web creada por Rebeca Ozuna</p>
   	</footer>
   </body>

@@ -1,52 +1,87 @@
-header{
-	width:100%;
-  	height: 15vh;
-  	position:fixed;
-  	background-color:black;
-  
+html{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-.botonera{
-	width:100%;
-  	height:15vh; 
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+body{
+  margin: 0;
+  overflow-x: hidden;  
 }
 
+header{
+	width:100%;
+  position:fixed;
+  
+}
 nav{
-  padding-right: 30px;
+  height: 15vh;
+}
+
+.p-2{
   color: white;
-  
+  font-size: large;
 }
-.navbar{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
-}
-.navbar-links{
-  display:flex;
-  list-style: none;
-  
-}
-.nav-item a{
-  padding-right: 10px;
-  padding-left:10px;
-  
+
+.botonera{
+  width: 50%;
+  justify-content: space-around;
 }
 
 .line{
 	height: 2px;
   background: linear-gradient(45deg, #66f, #f80, #ffc);
 }
+
 .principal-bg{
-  width:100vw;
+  width:100%;
   height:100vh;
-  background-color:grey;
+  background-image: url(assets/images/fondo5.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   justify-content:center;
   align-items:center;
+  color: #FFCA63;
 }
+.principal-bg h1{
+  font-size: 60px;
+}
+
 .p1{
   display: flex;
   flex-direction: column;
   align-self: center;
+  
  }
+ .p1 h2{
+  font-size: 35px;
+ }
+.seccion{
+  height: 100vh;
+  width:90%;
+  margin: auto;
+  padding: 20px;
+  
+  color: blueviolet;
+  justify-content: center;
+  align-items: center; 
+}
+.lenguajes h1{
+  color: #f80;
+}
+.proyectos h1, .experiencia h1{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  color: #f80;
+}
+footer{
+  color: white;
+  font-size: small;
+}

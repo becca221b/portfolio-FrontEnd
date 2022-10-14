@@ -36,6 +36,10 @@ nav{
   background-color: #1c1c1c;
 }
 
+.container-fluid{
+  position: fixed;
+}
+
 .navbar-brand{
   font-family: fuentedos, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: normal;

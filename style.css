@@ -171,7 +171,7 @@ nav{
 .menu div{
   position: relative;
   width: 0;
-  height: 1px;
+  height: 7px;
   border-radius: 10px;
   background-color: cyan;
 }
@@ -182,4 +182,37 @@ nav{
 footer{
   color: white;
   font-size: small;
+}
+/*animación*/
+#html-menu{
+  animation: html-barra 2s forwards;
+}
+@keyframes html-barra{
+  100%{
+    width: 90%;
+  }
+}
+#css-menu{
+  animation: css-barra 2s forwards;
+}
+@keyframes css-barra{
+  100%{
+    width: 75%;
+  }
+}
+#js-menu{
+  animation: js-barra 2s forwards;
+}
+@keyframes js-barra{
+  100%{
+    width: 80%;
+  }
+}
+#angular-menu{
+  animation: angular-barra 2s forwards;
+}
+@keyframes angular-barra{
+  100%{
+    width: 10%;
+  }
 }

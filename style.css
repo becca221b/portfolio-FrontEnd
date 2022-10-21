@@ -112,31 +112,23 @@ nav{
   margin-top: 20px;
   margin-left: 10px;
   text-align: center;
+  
 }
-.lenguajes{
-  justify-content: center;
-}
-
-.proyectos h1, .experiencia h1{
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 20px;
+.lenguajes, .idioma{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
 }
 .parent-box{
   width: 40%;
   min-width: 500px;
   margin-top: 40px;
-  
-  /*
-  display: flex;
-  justify-content: center;
-  */
 }
 .container{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  
   background: #2a2a2a;
   border: 2px solid rgba(0, 0, 0, 0.06);
   border-radius: 10px;
@@ -146,7 +138,7 @@ nav{
   font-weight: bolder;  
 }
 .container div{
-  margin: 5px;
+  margin: 5px; 
   
 }
 .skills{
@@ -173,10 +165,9 @@ nav{
   height: 7px;
   border-radius: 10px;
   background-color: cyan;
+  
 }
-.idioma{
-  width: 100%;
-}
+
 
 /*animación*/
 .html-menu{
@@ -211,7 +202,27 @@ nav{
     width: 10%;
   }
 }
-
+.english-menu{
+  animation: english-barra 2s forwards;
+}
+@keyframes english-barra{
+  100%{
+    width: 98%;
+  }
+}
+.spanish-menu{
+  animation: spanish-barra 2s forwards;
+}
+@keyframes spanish-barra{
+  100%{
+    width: 100%;
+  }
+}
+.proyectos h1, .experiencia h1{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
 footer{
   color: white;
   font-size: small;

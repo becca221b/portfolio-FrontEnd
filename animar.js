@@ -18,10 +18,14 @@ var waypoint = new Waypoint({
       let menucss= document.getElementById('css-menu')
       let jsmenu= document.getElementById('js-menu')
       let angularmenu= document.getElementById('angular-menu')
+      let englishmenu= document.getElementById('english-menu')
+      let spanishmenu= document.getElementById('spanish-menu')
       menuhtml.classList.add('html-menu')
       menucss.classList.add('css-menu')
       jsmenu.classList.add('js-menu')
       angularmenu.classList.add('angular-menu')
+      englishmenu.classList.add('english-menu')
+      spanishmenu.classList.add('english-menu')
 
       //console.log(menuhtml)
     },

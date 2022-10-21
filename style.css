@@ -101,24 +101,22 @@ nav{
   padding: 20px;
   background-color: #1d1d1d;
   color: white;
+  /*justify-content: center;
+  align-items: center;*/
 }
 .seccion h1{
   color: #f80;
   font-family: fuentedos, 'Arial Narrow', sans-serif;
   font-style: normal;
   font-weight: normal;
-}
-.lenguajes{
-  /*
-  justify-content: ;
-  align-items: ; */
-  display: flex;
-  flex-direction: row;
-}
-.lenguajes h1{
   margin-top: 20px;
   margin-left: 10px;
+  text-align: center;
 }
+.lenguajes{
+  justify-content: center;
+}
+
 .proyectos h1, .experiencia h1{
   text-align: center;
   padding-top: 100px;

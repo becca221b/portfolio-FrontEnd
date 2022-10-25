@@ -224,6 +224,17 @@ nav{
   padding-bottom: 20px;
   margin-top: 30px;
 }
+.job img{
+  height: 120px;
+  width: 160px;
+  padding: 10px;
+  margin: 20px;
+}
+.jobdetail{
+  padding: 10px;
+  font-size: small;
+  margin-top: 20px;
+}
 footer{
   color: white;
   font-size: small;

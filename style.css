@@ -234,6 +234,17 @@ nav{
   padding: 10px;
   font-size: small;
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.jobdetail div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  
 }
 footer{
   color: white;

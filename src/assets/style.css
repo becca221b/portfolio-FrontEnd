@@ -96,6 +96,7 @@ nav{
  
  .seccion{
   min-height: 100vh;
+  box-sizing: content-box;
   width:100%;
   margin: auto;
   padding: 20px;
@@ -223,6 +224,10 @@ nav{
   padding-top: 10px;
   padding-bottom: 20px;
   margin-top: 30px;
+}
+.proyectos p{
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .job img{
   height: 120px;

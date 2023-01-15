@@ -1,3 +1,4 @@
+function main(){
 let animado= document.querySelectorAll(".skills");
 
 function mostrarScroll(){
@@ -31,3 +32,4 @@ var waypoint = new Waypoint({
     },
     offset: 450
 })
+}
